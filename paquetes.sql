@@ -1,0 +1,8 @@
+set serveroutput on 
+
+CREATE OR REPLACE PACKAGE PACK1
+IS
+   V1 NUMBER:=10;
+   V2 VARCHAR2(100);
+END;
+/
